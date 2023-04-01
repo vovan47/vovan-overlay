@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare test
+DEPEND=test? ( dev-lang/php:* dev-php/fedora-autoloader >=dev-php/phpunit-5.7.15 )
+DESCRIPTION=Symfony DependencyInjection Component
+EAPI=7
+HOMEPAGE=https://github.com/symfony/dependency-injection
+IUSE=test
+KEYWORDS=amd64 x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:* dev-php/fedora-autoloader
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/symfony/dependency-injection/archive/v3.2.tar.gz -> symfony-contracts-3.2.tar.gz
+_md5_=37eb3d616f55347d74bbcfd6ce674b2e

@@ -1,0 +1,9 @@
+[Unit]
+Description=PowerPanel Daemon for CyberPower Systems UPS devices
+Documentation=man:pwrstatd(8)
+
+[Service]
+ExecStart=/usr/sbin/pwrstatd
+
+[Install]
+WantedBy=multi-user.target

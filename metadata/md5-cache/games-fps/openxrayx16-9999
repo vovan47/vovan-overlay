@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install unpack
+DEPEND=media-libs/glew media-libs/freeimage net-libs/liblockfile media-libs/openal dev-cpp/tbb dev-libs/crypto++ media-libs/libtheora media-libs/libogg media-libs/libvorbis media-libs/libsdl2 dev-libs/lzo media-libs/libjpeg-turbo sys-libs/readline dev-libs/libpcre2 dev-libs/libpcre app-arch/lzop dev-vcs/git media-libs/libglvnd dev-util/cmake !clang? ( >sys-devel/gcc-7.5.0 ) clang? ( sys-devel/clang )
+DESCRIPTION=Open-source xray engine
+EAPI=7
+HOMEPAGE=https://github.com/OpenXRay
+INHERIT=git-r3
+IUSE=clang debug
+KEYWORDS=~amd64
+LICENSE=BSD
+PROPERTIES=live
+RDEPEND=media-libs/glew media-libs/freeimage net-libs/liblockfile media-libs/openal dev-cpp/tbb dev-libs/crypto++ media-libs/libtheora media-libs/libogg media-libs/libvorbis media-libs/libsdl2 dev-libs/lzo media-libs/libjpeg-turbo sys-libs/readline dev-libs/libpcre2 dev-libs/libpcre app-arch/lzop dev-vcs/git media-libs/libglvnd dev-util/cmake !clang? ( >sys-devel/gcc-7.5.0 ) clang? ( sys-devel/clang )
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f
+_md5_=b2053544e506b9e87c90eb358885af5e
