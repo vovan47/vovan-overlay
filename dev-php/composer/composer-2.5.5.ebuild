@@ -28,6 +28,7 @@ RDEPEND="dev-lang/php:*[curl]
 	>=dev-php/class-map-generator-1.0.0
 	>=dev-php/spdx-licenses-1.2
 	>=dev-php/symfony-console-2.8.52
+	>=dev-php/symfony-contracts-2.3.1
 	>=dev-php/symfony-filesystem-2.8.52
 	>=dev-php/symfony-finder-2.8.52
 	>=dev-php/symfony-process-2.8.52
