@@ -21,7 +21,8 @@ RESTRICT=test
 RDEPEND="dev-lang/php:*
 	dev-php/fedora-autoloader
 	>=dev-php/symfony-config-2.1.0
-	>=dev-php/symfony-yaml-2.1.0"
+	>=dev-php/symfony-yaml-2.1.0
+	dev-php/symfony-contracts"
 DEPEND="test? ( ${RDEPEND} >=dev-php/phpunit-5.7.15 )"
 
 S="${WORKDIR}/dependency-injection-${PV}"
